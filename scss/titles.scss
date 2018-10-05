@@ -1,0 +1,17 @@
+@import 'fonts';
+
+.page-title {
+  font-size: $text-big;
+  padding: 100px;
+  position: relative;
+  
+  &::before {
+    content: url('assets/triangle.svg');
+    bottom: 70px;
+    height: 90px;
+    right: 250px;
+    position: absolute;
+    width: 70px;
+    z-index: -1;
+  } 
+}

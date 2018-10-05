@@ -1,3 +1,11 @@
-.tech-logo {
-  height: 100px;
+@import 'colors';
+
+.tech-container {
+  border-color: $earls-grenn;
+  border: 1px;
+
+  &::after {
+    color: $earls-grenn;  
+  }
+  
 }

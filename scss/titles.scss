@@ -1,9 +1,11 @@
 @import 'fonts';
+
 .page-title {
   font-size: $text-big;
   left: 100px;
   position: relative;
   top: 100px;
+  
   &::before {
     content: url('assets/triangle.svg');
     bottom: -31px;

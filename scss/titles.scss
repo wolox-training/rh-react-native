@@ -1,13 +1,14 @@
-.title {
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-}
-
-.title-decoration {
-  height: 90px;
-  width: 70px;
-  vertical-align: middle;
+.page-title {
   position: relative;
-  left: 20px;
-  z-index: -1;
+  left: 70px;
+  top: 50px;
+  &::before {
+    content: url('assets/triangle.svg');
+    height: 90px;
+    width: 70px;
+    bottom: -31px;
+    left: -50px;
+    position: absolute;
+    z-index: -1;
+  }
 }

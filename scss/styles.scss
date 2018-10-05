@@ -2,14 +2,18 @@ $cerulean: #00ADEE;
 $earls-grenn: #BED23C;
 $silver: #C4C4C4;
 
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 .text-big {
-  size: 24px;
+  font-size: 24px;
 }
 
 .text-medium {
-  size: 16px;
+  font-size: 16px;
 }
 
 .text-small {
-  size: 12px;
+  font-size: 12px;
 }

@@ -2,16 +2,15 @@
 
 .page-title {
   font-size: $text-big;
-  left: 100px;
-  position: absolute;
-  top: 100px;
+  padding: 100px;
+  position: relative;
   
   &::before {
     content: url('assets/triangle.svg');
-    bottom: -31px;
+    bottom: 70px;
     height: 90px;
+    right: 250px;
     position: absolute;
-    right: 150px;
     width: 70px;
     z-index: -1;
   } 

@@ -35,3 +35,22 @@
   display: block;
   margin: 50px 0px;
 }
+.tech-title {
+  margin: 10px;
+}
+
+.tech-sub {
+  font-weight: 900;
+  margin: 20px;
+}
+
+.tech-desc {
+  margin: 30px 15px 25px;
+}
+
+.tech-title,
+.tech-sub,
+.tech-desc {
+  display: block;
+  font-size: $text-medium;
+}

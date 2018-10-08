@@ -1,18 +1,37 @@
 @import 'fonts';
 
 .page-title {
+  display: inline-block;
   font-size: $text-big;
-  left: 100px;
   position: relative;
-  top: 100px;
   
   &::before {
-    content: url('assets/triangle.svg');
     bottom: -31px;
+    content: url('assets/triangle.svg');
     height: 90px;
     position: absolute;
     right: 150px;
     width: 70px;
     z-index: -1;
   } 
+}
+
+.tech-title {
+  margin: 10px;
+}
+
+.tech-sub {
+  font-weight: 900;
+  margin: 20px;
+}
+
+.tech-desc {
+  margin: 30px 15px 25px;
+}
+
+.tech-title,
+.tech-sub,
+.tech-desc {
+  display: block;
+  font-size: $text-medium;
 }

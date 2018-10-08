@@ -2,25 +2,24 @@
 @import 'fonts';
 
 .tech-container {
-  border: 1px solid;
-  border-color: $earls-green;
+  background-color: $earls-green;
   border-radius: 5px;
-  display: inline-block;
   height: auto;
   margin: 20px;
   padding: 40px;
   position: relative;
   text-align: center;
-  width: 20%;
+  width: 300px;
 
-  &::after {
-    background-color: $earls-green;
+  &::before {
+    border: 1px solid;
+    border-color: $earls-green;
     border-radius: 5px;
     content: '';
     height: 100%;
-    left: 15px;
+    right: 15px;
 		position: absolute;
-		top: 15px;
+		bottom: 15px;
 		width: 100%;
 		z-index: -1;
   }
@@ -32,8 +31,9 @@
 }
 
 .tech-section {
-  display: block;
-  margin: 50px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0px 150px;
 }
 .tech-title {
   margin: 10px;

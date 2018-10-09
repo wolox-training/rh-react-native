@@ -1,16 +1,16 @@
 @import 'fonts';
 
 .page-title {
+  display: inline-block;
   font-size: $text-big;
-  padding: 100px;
   position: relative;
   
   &::before {
+    bottom: -31px;
     content: url('assets/triangle.svg');
-    bottom: 70px;
     height: 90px;
-    right: 250px;
     position: absolute;
+    right: 150px;
     width: 70px;
     z-index: -1;
   } 

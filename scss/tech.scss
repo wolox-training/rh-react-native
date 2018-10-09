@@ -1,3 +1,52 @@
+@import 'colors';
+@import 'fonts';
+
+.tech-container {
+  background-color: $earls-green;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  width: 220px;
+
+  &::before {
+    bottom: 10px;
+    border: 1px solid;
+    border-color: $earls-green;
+    border-radius: 5px;
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: 10px;
+		width: 100%;
+		z-index: -1;
+  }
+}
+
 .tech-logo {
   height: 100px;
+  width: 100px;
+}
+
+.tech-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0px 150px;
+}
+
+.tech-title {
+  margin: 10px;
+}
+
+.tech-sub {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.tech-title,
+.tech-sub,
+.tech-desc {
+  display: block;
+  font-size: $text-medium;
 }

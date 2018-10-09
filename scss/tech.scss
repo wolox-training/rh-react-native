@@ -19,8 +19,14 @@
     height: 100%;
     position: absolute;
     right: 10px;
-		width: 100%;
-		z-index: -1;
+    width: 100%;
+    z-index: -1;
+    transition: top 0.5s ease, left 0.5s ease;
+  }
+
+  &:hover:before {
+    top: 12px;
+    left: 12px;
   }
 }
 

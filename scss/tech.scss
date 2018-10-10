@@ -2,32 +2,19 @@
 @import 'fonts';
 
 .tech-container {
-  background-color: $earls-green;
   border-radius: 5px;
   margin: 20px;
   padding: 20px;
   position: relative;
   text-align: center;
   width: 220px;
+}
 
-  &::before {
-    bottom: 10px;
-    border: 1px solid;
-    border-color: $earls-green;
-    border-radius: 5px;
-    content: '';
-    height: 100%;
-    position: absolute;
-    right: 10px;
-    width: 100%;
-    z-index: -1;
-    transition: top 0.5s ease, left 0.5s ease;
-  }
-
-  &:hover:before {
-    top: 12px;
-    left: 12px;
-  }
+.tech-grid {
+  border-left: 2px solid $earls-green;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .tech-logo {
@@ -36,8 +23,10 @@
 }
 
 .tech-section {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 50px 0px 150px;
 }
 

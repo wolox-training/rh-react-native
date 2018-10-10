@@ -12,18 +12,15 @@
   color: white;
   font-size: $text-big;
   margin-bottom: 10px;
-  text-transform: uppercase;
 }
 
 .footer-container {
   justify-content: center;
   align-items: center;
   background-color: $cerulean;
-  bottom: 0px;
   display: flex;
   flex-direction: column;
   height: 200px;
-  left: 0px;
   padding: 30px;
   width: 100%;
 }

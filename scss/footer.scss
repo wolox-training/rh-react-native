@@ -28,12 +28,13 @@
 @media only screen and (max-width: 1024px) {
   .footer-title {
     font-size: 14px;
+    margin-bottom: 0px;
   }
 
   .footer-container {
-    height: 150px;
-    justify-content: space-between;
-    padding: 20px 50px;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 30px;
   }
 
   .copyrights {
@@ -42,7 +43,7 @@
   }
   
   .footer-logo {
-    align-self: center;
-    width: 200px;
+    margin-bottom: 40px;
+    width: 70%;
   }
 }

@@ -2,6 +2,7 @@
 @import 'fonts';
 
 .tech-container {
+  justify-self: start;
   margin: 20px;
   padding: 20px;
   position: relative;
@@ -27,10 +28,6 @@
   grid-row: 1/3;
   height: 100%;
   justify-self: end;
-}
-
-.nth-tech {
-  justify-self: start;
 }
 
 .tech-logo {

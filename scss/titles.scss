@@ -18,4 +18,21 @@
     width: 70px;
     z-index: -1;
   } 
-}
+}  
+
+@media only screen and (max-width: 1024px) {
+  .header-title {
+    display: none;
+  }
+
+  .page-title {
+    font-size: 20px;
+    
+    &::before {
+      bottom: -15px;
+      height: 70px;
+      right: 125px;
+      width: 60px;
+    } 
+  } 
+} 

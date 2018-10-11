@@ -24,3 +24,25 @@
   padding: 30px;
   width: 100%;
 }
+
+@media only screen and (max-width: 1024px) {
+  .footer-title {
+    font-size: 14px;
+  }
+
+  .footer-container {
+    height: 150px;
+    justify-content: space-between;
+    padding: 20px 50px;
+  }
+
+  .copyrights {
+    align-self: center;
+    font-size: 6px;
+  }
+  
+  .footer-logo {
+    align-self: center;
+    width: 200px;
+  }
+}

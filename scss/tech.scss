@@ -2,43 +2,38 @@
 @import 'fonts';
 
 .tech-container {
-  background-color: $earls-green;
-  border-radius: 5px;
+  justify-self: start;
   margin: 20px;
   padding: 20px;
   position: relative;
   text-align: center;
   width: 220px;
+}
 
-  &::before {
-    bottom: 10px;
-    border: 1px solid;
-    border-color: $earls-green;
-    border-radius: 5px;
-    content: '';
-    height: 100%;
-    position: absolute;
-    right: 10px;
-    width: 100%;
-    z-index: -1;
-    transition: top 0.5s ease, left 0.5s ease;
-  }
+.tech-grid {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  margin: 50px 0px 150px;
+}
 
-  &:hover:before {
-    top: 12px;
-    left: 12px;
-  }
+.head-tech {
+  align-content: center;
+  justify-items: center; 
+  border-right: 2px solid $earls-green; 
+  display: grid;
+  grid-row: 1/3;
+  height: 100%;
+  justify-self: end;
 }
 
 .tech-logo {
+  align-self: center;
   height: 100px;
   width: 100px;
-}
-
-.tech-section {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 50px 0px 150px;
 }
 
 .tech-title {

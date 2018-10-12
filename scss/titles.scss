@@ -24,14 +24,4 @@
   .header-title {
     display: none;
   }
-
-  .page-title {
-    
-    &::before {
-      bottom: -15px;
-      height: 70px;
-      right: 156px;
-      width: 60px;
-    } 
-  } 
 } 
